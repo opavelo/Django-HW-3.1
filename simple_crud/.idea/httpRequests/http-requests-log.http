@@ -1,0 +1,269 @@
+POST http://127.0.0.1:8000/api/v1/Measurement/
+Content-Type: application/json
+
+{
+
+"value": 1353.0,
+"created_at": "2121-01-01 00:00:10",
+"updated_at": "2222-01-01 00:00:10",
+"project": 1
+}
+
+<> 2021-08-15T181943.201.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/Measurement/
+Content-Type: application/json
+
+{
+"id": 5,
+"value": 1353.0,
+"created_at": "1111-01-01 00:00:10",
+"updated_at": "1112-01-01 00:00:10",
+"project": 1
+}
+
+<> 2021-08-15T181854.201.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/Measurement/
+Accept: application/json
+
+<> 2021-08-15T181812.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/Measurement/
+Content-Type: application/json
+
+{
+"id": 2,
+"value": 1353.0,
+"created_at": "1111-01-01 00:00:10",
+"updated_at": "1112-01-01 00:00:10",
+"project": 1
+}
+
+<> 2021-08-15T181806.500.html
+
+###
+
+POST http://127.0.0.1:8000/api/v1/Measurement
+Content-Type: application/json
+
+{
+"id": 2,
+"value": 1353.0,
+"created_at": "1111-01-01 00:00:10",
+"updated_at": "1112-01-01 00:00:10",
+"project": 1
+}
+
+<> 2021-08-15T181725.500.html
+
+###
+
+POST http://127.0.0.1:8000/api/v1/Measurement
+Content-Type: application/json
+
+{
+"id": 2,
+"value": 1353.0,
+"created_at": "1111-01-01 00:00:10",
+"updated_at": "1112-01-01 00:00:10",
+"project": 1
+}
+
+<> 2021-08-15T181657.500.html
+
+###
+
+POST http://127.0.0.1:8000/api/v1/Measurement
+Content-Type: application/json
+
+[{
+"id": 2,
+"value": 1353.0,
+"created_at": "1111-01-01 00:00:10",
+"updated_at": "1112-01-01 00:00:10",
+"project": 1
+}]
+
+<> 2021-08-15T181651.500.html
+
+###
+
+POST http://127.0.0.1:8000/api/v1/Measurement
+Content-Type: application/json
+
+[{
+'id': 2,
+"value": 1353.0,
+"created_at": "1111-01-01 00:00:10",
+"updated_at": "1112-01-01 00:00:10",
+"project": 1
+}]
+
+<> 2021-08-15T181631.500.html
+
+###
+
+POST http://127.0.0.1:8000/api/v1/Measurement
+Content-Type: application/json
+
+{
+"value": 1353.0,
+"created_at": "1111-01-01 00:00:10",
+"updated_at": "1112-01-01 00:00:10",
+"project": 1
+}
+
+<> 2021-08-15T181558.500.html
+
+###
+
+POST http://127.0.0.1:8000/api/v1/Measurement
+Content-Type: application/json
+
+[{
+"value": 1353.0,
+"created_at": "1111-01-01 00:00:10",
+"updated_at": "1112-01-01 00:00:10",
+"project": 1
+}]
+
+<> 2021-08-15T181544.500.html
+
+###
+
+POST http://127.0.0.1:8000/api/v1/Measurement
+Content-Type: application/json
+
+[{
+"value": 1353.0,
+"created_at": "2010-11-31T21:00:10Z",
+"updated_at": "2010-11-31T21:00:11Z",
+"project": 1
+}]
+
+<> 2021-08-15T181427.500.html
+
+###
+
+GET http://127.0.0.1:8000/api/v1/Measurement
+Accept: application/json
+
+<> 2021-08-15T181409.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/Measurement
+Content-Type: application/json
+
+{
+"value": 1353.0,
+"created_at": "2010-11-31T21:00:10Z",
+"updated_at": "2010-11-31T21:00:11Z",
+"project": 1
+}
+
+<> 2021-08-15T181348.500.html
+
+###
+
+POST http://127.0.0.1:8000/api/v1/Measurement
+Accept: application/json
+
+{
+"value": 1353.0,
+"created_at": "2010-11-31T21:00:10Z",
+"updated_at": "2010-11-31T21:00:11Z",
+"project": 1
+}
+
+<> 2021-08-15T181143.500.txt
+
+###
+
+POST http://127.0.0.1:8000/api/v1/Measurement
+Accept: application/json
+
+<> 2021-08-15T181136.500.txt
+
+###
+
+POST http://127.0.0.1:8000/api/v1/Measurement
+Accept: application/json
+{:
+"value": 1353.0,
+"created_at": "2010-11-31T21:00:10Z",
+"updated_at": "2010-11-31T21:00:11Z",
+"project": 1
+}:
+
+<> 2021-08-15T181123.500.txt
+
+###
+
+POST http://127.0.0.1:8000/api/v1/Measurement
+Accept: application/json
+
+{"value": 1353.0, "created_at": "2010-11-31T21:00:10Z", "updated_at": "2010-11-31T21:00:11Z", "project": 1}
+
+<> 2021-08-15T180913.500.txt
+
+###
+
+GET http://127.0.0.1:8000/api/v1/Measurement
+Accept: application/json
+
+<> 2021-08-15T180900.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/Measurement
+Accept: application/json
+
+{"id": 2, "value": 1353.0, "created_at": "2010-11-31T21:00:10Z", "updated_at": "2010-11-31T21:00:11Z", "project": 1}
+
+<> 2021-08-15T180852.500.txt
+
+###
+
+GET http://127.0.0.1:8000/api/v1/Measurement
+Accept: application/json
+
+<> 2021-08-15T180538.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/Project
+Accept: application/json
+
+<> 2021-08-15T180518.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/Project
+Accept: application/json
+
+<> 2021-08-15T180338.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/Project
+Accept: application/json
+
+<> 2021-08-15T175937.500.txt
+
+###
+
+GET http://localhost:8000/api/v1/Project
+Accept: application/json
+
+<> 2021-08-15T175739.500.txt
+
+###
+
